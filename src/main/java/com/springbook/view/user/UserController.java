@@ -32,7 +32,7 @@ public class UserController {
 		session.setAttribute("user", user);
 		
 		if(user != null) {
-			return "index.jsp";
+			return "getBoardList.do";
 		}else {
 		
 		return "login.jsp";
